@@ -1,3 +1,25 @@
+
+@media  screen and (max-width: 780px) {
+
+    .row{
+        padding: 10px 0;
+        margin-top: 0;
+    }
+
+
+    #lezioni .row,
+    #why .row{
+        background-color: beige;
+    }
+
+   
+
+    .container.grey{
+        background-color: white;
+    }
+
+}
+
 @media  screen and (max-width: 419px) {
 
     .row{
@@ -6,6 +28,7 @@
         align-items: center;
         padding: 10px 0;
         margin-top: 0;
+        margin-bottom: 0;
 
     }
 
@@ -21,6 +44,10 @@
 
     .container.grey{
         background-color: white;
+    }
+
+     .container.grey hr{
+        border: 1px solid black;
     }
 
 }
